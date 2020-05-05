@@ -74,3 +74,5 @@ console.log(results2);
 assertArraysEqual(results1, [1, 2, 5, 7, 2]); // should return TRUE
 assertArraysEqual(results2, ["I've", "been", "to", "Hollywand"]); // should return not true
 assertArraysEqual(takeUntil(data1, x => x < 0), [1, 2, 5]); // should return not true
+
+module.exports = takeUntil;

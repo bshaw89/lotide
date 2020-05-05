@@ -34,3 +34,8 @@ const countLetters = function (letters) {
 }
 
 console.log(countLetters("twentytwo"));
+
+let num = "twentyone";
+console.log(num[0]);
+
+module.exports = countLetters;

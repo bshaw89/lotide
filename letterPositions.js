@@ -76,3 +76,4 @@ assertArraysEqual(letterPositions("hello").o, [3]); // should return NOT TRUE
 assertArraysEqual(letterPositions("hello").o, [4]); // should return TRUE
 assertArraysEqual(letterPositions("hello lighthouse").o, [4,12]); // should return TRUE
 
+module.exports = letterPositions;

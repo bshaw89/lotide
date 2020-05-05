@@ -16,7 +16,7 @@
   return midFinal;
  };
 
- module.exports = middle;
+ console.log(middle([1,2]));
 
- 
- 
+
+ module.exports = middle;

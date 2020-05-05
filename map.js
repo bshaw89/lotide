@@ -51,6 +51,6 @@ assertArraysEqual(map(words, word => word[1]), ['g', 'c', 't', 'm', 't']); // sh
 assertArraysEqual(map(words, word => word[1,2]), ['g', 'c', 't', 'm', 't']); // should return FALSE
 // assertArraysEqual(map(words, word => word[0,1]), ['g','r'], ['c','o'], ['t','o'], ['m','a'], ['t','o']); // should return TRUE
 
-
+module.exports = map;
 
 
